@@ -1,4 +1,4 @@
-class ListOfBookmarks
+class Bookmark
 
 BOOKMARKS = ["www.makers.co.uk"]
 

@@ -1,6 +1,6 @@
-require 'list_of_bookmarks.rb'
+require 'bookmark.rb'
 
-describe ListOfBookmarks do
+describe Bookmark do
 
   subject(:game) { described_class.new }
 
