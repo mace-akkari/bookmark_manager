@@ -25,3 +25,4 @@ bookmark
 
 @name
 @link -->
+[domain model diagram](./bookmark_manager_1.png)
