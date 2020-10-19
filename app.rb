@@ -1,9 +1,13 @@
 require 'sinatra/base'
 class Bookmark < Sinatra::Base
 
-  get "/" do
+  get '/' do
     "Hello World!"
   end
 
-run! if app_file == $0
+get '/bookmarks' do
+  erb :bookmarks
+end
+
+  run! if app_file == $0
 end
