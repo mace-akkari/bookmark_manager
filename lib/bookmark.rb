@@ -1,5 +1,6 @@
 class Bookmark
 
+attr_reader :bookmarks
 BOOKMARKS = ["www.makers.co.uk"]
 
   def initialize
