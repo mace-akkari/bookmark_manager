@@ -1,14 +1,10 @@
 class Bookmark
-
-attr_reader :bookmarks
-BOOKMARKS = ["www.makers.co.uk"]
-
-  def initialize
-    @bookmarks = BOOKMARKS
-  end
-
-  def all
-    @bookmarks
+  def self.all
+    [
+      "http://www.makersacademy.com",
+      "http://www.destroyallsoftware.com",
+      "http://www.google.com"
+    ]
   end
 
 end

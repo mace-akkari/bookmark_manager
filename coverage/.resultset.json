@@ -1,14 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kamacbook/Documents/Makers/bookmark_manager/spec/bookmark_spec.rb": {
+      "/Users/username/Desktop/Makers/bookmark_manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
           1,
           null,
-          2,
-          null,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -18,25 +19,7 @@
           null
         ]
       },
-      "/Users/kamacbook/Documents/Makers/bookmark_manager/lib/bookmark.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/kamacbook/Documents/Makers/bookmark_manager/spec/features/testing_infrastructure_spec.rb": {
+      "/Users/username/Desktop/Makers/bookmark_manager/spec/features/testing_infrastructure_spec.rb": {
         "lines": [
           1,
           1,
@@ -46,7 +29,7 @@
           null
         ]
       },
-      "/Users/kamacbook/Documents/Makers/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/username/Desktop/Makers/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -57,6 +40,6 @@
         ]
       }
     },
-    "timestamp": 1603125455
+    "timestamp": 1603127062
   }
 }
