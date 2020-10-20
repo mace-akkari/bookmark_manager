@@ -4,13 +4,14 @@ require './lib/bookmark.rb'
 class BookmarkManager < Sinatra::Base
 
   get '/' do
+    p ENV
     "Hello World!"
   end
 
-get '/bookmarks' do
-  @bookmarks = Bookmark.all
+  get '/bookmarks' do
+    @bookmarks = Bookmark.all
     erb :'bookmarks/index'
-end
+  end
 
   run! if app_file == $0
 end
