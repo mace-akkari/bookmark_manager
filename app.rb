@@ -4,7 +4,6 @@ require './lib/bookmark.rb'
 class BookmarkManager < Sinatra::Base
 
   get '/' do
-    p ENV
     "Hello World!"
   end
 
